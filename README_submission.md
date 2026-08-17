@@ -1,5 +1,11 @@
 # Báo cáo Thu hoạch Lab 17 - Multi-Memory Agent với Zep
 
+- **Họ và tên**: TRẦN DUY HOÀNH
+- **Mã học viên / MSSV**: 01777
+- **Mã Repository**: Day17-Track3-01777-TRANDUYHOANH
+
+---
+
 ## 1. Phân tích Benchmark
 
 1. **Layer có hit rate thấp nhất**: Trong bài lab này cả 4 layer đều đạt 100% (11/11 PASS). Tuy nhiên ở baseline `no-memory`, các layer Long-term, Episodic và Semantic đều rớt 0% vì thông tin nằm cross-session/external graph; chỉ Short-term đạt 100% nhờ context còn nằm trong phiên hiện tại.
